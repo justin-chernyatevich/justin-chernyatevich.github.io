@@ -1,0 +1,138 @@
+html {
+    background-image: url(../images/background-image.png);
+    background-attachment: fixed;
+}
+
+body{
+    color: #551a91;
+    width: 80%;
+    margin: auto;
+    background: rgba(158,204,204,1);
+    border: ridge green 5px;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    height: 55px;
+    background: saddlebrown;
+}
+
+
+nav ul {
+    text-decoration: none;
+    text-align: center;
+    border: solid 3px brown;
+    height: 51px;
+}
+
+
+nav li {
+    list-style: none;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: blink;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1em;
+    background: rgba(177, 152, 145, .3);
+    border-right: 1px solid #b19891;
+    color: #9acd32;
+    font-size: 1em;
+}
+
+li {
+    display: inline;
+}
+li a:hover{
+    background-image: -webkit-linear-gradient(90deg, #78311a 25%, #d08e80 100%, #a57c6e 5%, dimgrey 100%);
+
+}
+h3{
+    color: #073E27;
+    font-family: "PT Serif Caption", serif;
+    padding-top: 15px;
+    margin-bottom: -15px;
+}
+
+h1, h2 {
+
+    color: #073E27;
+    font-family: "PT Serif Caption", serif;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: -15px;
+}
+
+
+
+h2 {
+    font-size: 1.5em;
+}
+
+
+
+p{
+    font-family: "PT Sans", sans-serif;
+    font-size: 1.50em;
+    #margin-bottom: -15px;
+    text-align: center;
+}
+
+h4{
+    font-style: italic;
+    font-size: 1.2em;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+}
+
+.seasons-highlight {
+    color: #205926;
+}
+
+.autumn p{
+    color: #cc7d37;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 2px green, 0 0 1em white;
+}
+
+.seasons {
+    padding-bottom: 25px;
+}
+
+.seasons img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.summer p{
+    color: #B93333;
+}
+
+.winter p{
+    color: #5E62E0;
+}
+
+.spring{
+    color: #A24E79;
+}
+
+footer {
+    min-height: 100px;
+    background: #24444b;
+    border: 5px solid yellowgreen;
+}
+
+footer p {
+    color: beige;
+    letter-spacing: 0.05em;
+    font-family: "PT Serif Caption", serif;
+    font-style: italic;
+}
