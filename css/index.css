@@ -1,5 +1,6 @@
 html {
     background-image: url(../images/background-image.png);
+    -webkit-background-size: 100%;
     background-attachment: fixed;
 }
 
@@ -60,7 +61,8 @@ h3{
 }
 
 h1, h2 {
-    color: #073E27;
+
+    color: #205926;
     font-family: "PT Serif Caption", serif;
     text-align: center;
     padding-top: 15px;
