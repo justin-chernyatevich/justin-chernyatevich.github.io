@@ -139,4 +139,5 @@ footer p {
 }
 body ::selection{
     background: #cc7d37;
+    color: beige;
 }
