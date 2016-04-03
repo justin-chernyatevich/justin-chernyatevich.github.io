@@ -137,6 +137,6 @@ footer p {
     font-family: "PT Serif Caption", serif;
     font-style: italic;
 }
-::selection{
+body ::selection{
     background: #cc7d37;
 }
