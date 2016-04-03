@@ -138,6 +138,6 @@ footer p {
     font-style: italic;
 }
 body ::selection{
-    background-color: gold;
-    color: lightgreen;
+    background: darkturquoise;
+    color: navajowhite;
 }
