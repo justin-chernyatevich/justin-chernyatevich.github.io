@@ -1,4 +1,4 @@
-/*html {
+html {
     background-image: url(../images/background-image.png);
     -webkit-background-size: 100%;
     background-attachment: fixed;
@@ -140,4 +140,4 @@ footer p {
 body ::selection{
     background: #75B8B8;
     color: navajowhite;
-}*/
+}
