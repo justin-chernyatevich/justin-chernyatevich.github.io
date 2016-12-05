@@ -1,7 +1,5 @@
-html {
-    background-image: url(../images/background-image.png);
-    -webkit-background-size: 100%;
-    background-attachment: fixed;
+html{
+    background: linear-gradient(to bottom right, #7ab4ff, #d1e7f1);
 }
 
 body{
@@ -19,14 +17,12 @@ nav {
     background: saddlebrown;
 }
 
-
 nav ul {
     text-decoration: none;
     text-align: center;
     border: solid 3px brown;
     height: 51px;
 }
-
 
 nav li {
     list-style: none;
@@ -49,10 +45,12 @@ nav a{
 li {
     display: inline;
 }
+
 li a:hover{
     background-image: -webkit-linear-gradient(90deg, #78311a 25%, #d08e80 100%, #a57c6e 5%, dimgrey 100%);
 
 }
+
 h3{
     color: #073E27;
     font-family: "PT Serif Caption", serif;
@@ -69,13 +67,9 @@ h1, h2 {
     margin-bottom: -15px;
 }
 
-
-
 h2 {
     font-size: 1.5em;
 }
-
-
 
 p{
     font-family: "PT Sans", sans-serif;
@@ -137,6 +131,7 @@ footer p {
     font-family: "PT Serif Caption", serif;
     font-style: italic;
 }
+
 body ::selection{
     background: #75B8B8;
     color: navajowhite;
